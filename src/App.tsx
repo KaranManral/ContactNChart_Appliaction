@@ -5,7 +5,7 @@ import Charts from "./Charts";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ContactNChart_Appliaction">
       <Routes>
         <Route
           path="/"
