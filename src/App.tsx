@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/ContactNChart_Appliaction"
+          path="/"
           element={
             <div className="md:flex-1">
               <div className="container text-black p-24 text-center">
@@ -17,17 +17,11 @@ function App() {
                 </p>
                 <p className="text-lg">
                   <span>Go to </span>
-                  <a
-                    href="/ContactNChart_Appliaction/contact"
-                    className="text-blue-500 underline"
-                  >
+                  <a href="/contact" className="text-blue-500 underline">
                     Contacts{" "}
                   </a>
                   <span>or </span>
-                  <a
-                    href="/ContactNChart_Appliaction/charts"
-                    className="text-blue-500 underline"
-                  >
+                  <a href="/charts" className="text-blue-500 underline">
                     Charts
                   </a>
                 </p>
@@ -35,11 +29,8 @@ function App() {
             </div>
           }
         />
-        <Route
-          path="/ContactNChart_Appliaction/contact"
-          element={<Contact />}
-        />
-        <Route path="/ContactNChart_Appliaction/charts" element={<Charts />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/charts" element={<Charts />} />
       </Routes>
     </Router>
   );
