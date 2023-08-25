@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/ContactNChart_Appliaction/static/css/main.1983ce8f.css",
-    "main.js": "/ContactNChart_Appliaction/static/js/main.d660cdb7.js",
+    "main.js": "/ContactNChart_Appliaction/static/js/main.363c010a.js",
     "static/js/200.f9b9d40b.chunk.js": "/ContactNChart_Appliaction/static/js/200.f9b9d40b.chunk.js",
     "static/js/539.dbae4c70.chunk.js": "/ContactNChart_Appliaction/static/js/539.dbae4c70.chunk.js",
     "static/js/787.97270632.chunk.js": "/ContactNChart_Appliaction/static/js/787.97270632.chunk.js",
     "index.html": "/ContactNChart_Appliaction/index.html",
     "main.1983ce8f.css.map": "/ContactNChart_Appliaction/static/css/main.1983ce8f.css.map",
-    "main.d660cdb7.js.map": "/ContactNChart_Appliaction/static/js/main.d660cdb7.js.map",
+    "main.363c010a.js.map": "/ContactNChart_Appliaction/static/js/main.363c010a.js.map",
     "200.f9b9d40b.chunk.js.map": "/ContactNChart_Appliaction/static/js/200.f9b9d40b.chunk.js.map",
     "539.dbae4c70.chunk.js.map": "/ContactNChart_Appliaction/static/js/539.dbae4c70.chunk.js.map",
     "787.97270632.chunk.js.map": "/ContactNChart_Appliaction/static/js/787.97270632.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1983ce8f.css",
-    "static/js/main.d660cdb7.js"
+    "static/js/main.363c010a.js"
   ]
 }
