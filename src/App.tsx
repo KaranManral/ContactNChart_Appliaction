@@ -5,10 +5,10 @@ import Charts from "./Charts";
 
 function App() {
   return (
-    <Router basename="/ContactNChart_Appliaction">
+    <Router>
       <Routes>
         <Route
-          path="/"
+          path="/ContactNChart_Appliaction"
           element={
             <div className="md:flex-1">
               <div className="container text-black p-24 text-center">
@@ -17,11 +17,17 @@ function App() {
                 </p>
                 <p className="text-lg">
                   <span>Go to </span>
-                  <a href="/contact" className="text-blue-500 underline">
+                  <a
+                    href="/ContactNChart_Appliaction/contact"
+                    className="text-blue-500 underline"
+                  >
                     Contacts{" "}
                   </a>
                   <span>or </span>
-                  <a href="/charts" className="text-blue-500 underline">
+                  <a
+                    href="/ContactNChart_Appliaction/charts"
+                    className="text-blue-500 underline"
+                  >
                     Charts
                   </a>
                 </p>
@@ -29,8 +35,11 @@ function App() {
             </div>
           }
         />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/charts" element={<Charts />} />
+        <Route
+          path="/ContactNChart_Appliaction/contact"
+          element={<Contact />}
+        />
+        <Route path="/ContactNChart_Appliaction/charts" element={<Charts />} />
       </Routes>
     </Router>
   );
